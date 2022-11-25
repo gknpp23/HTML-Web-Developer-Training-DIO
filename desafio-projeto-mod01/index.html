@@ -14,33 +14,153 @@
     <ul>
         <li><a href="#clients">O que são <i>Clients</i>?</a></li>
         <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Hosting">Hospedagem de sites</a></li>
         <li><a href="#HTML">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#lists">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
         <li><a href="#links">Links de referências</a></li>
     </ul>
-
+    <hr>
     <h2 id="clients">O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-    <small>  <a href="#indice">(VOLTAR)</a></small>
-
+    <p>
+      <h3>Definição:</h3> Lado em que se consome informação/conteúdo da internet.
+      <br>
+      <i>EX</i>: PC, Smartphones e Tablets.
+    </p>
+    <p>
+      Com uma conexão estabelecida a um <b>server</b>(já vamos falar deles) é possivel então receber arquivos estáticos - HTML, CSS, JS e/ou imagens/áudios. Nessa ponta da conversa temos também os famosos <i>Browsers</i>, que armazenam esses arquivos solicitados em cache para acelerar uma posterior requisição.
+    </p>
+    <h3>Browsers</h3>
+    <p>
+      <strong>Definição:</strong> Programas criados por empresas para abrir/executar arquivos específicos.
+      <br>
+      <i>EX</i>: Chrome, Firefox e Safari.
+      <br><br>
+      Principais Características:
+      <ul>
+         <li>Segue padrões W3C (porém possuem diferenças de interpretação de arquivos)</li>
+         <li>Gratuitos</li>
+      </ul>
+    </p>
+    <h3>Aplicação Web</h3>
+    <p>
+      <strong>Definição:</strong> Soluçao/produto que utiliza a internet como meio de comunicação entre <strong><i>Cliente x Server</i></strong> e sem precisar realizar a instalação da aplicação.
+      <br>
+      <i>EX</i>: YouTube, Linkedin ou Facebook (desde que usados pelo navegador).
+    </p>
+    <p>
+      E lembre-se:
+      <blockquote>"Trabalhar com a internet não é o futuro, Já estamos vivendo nele!"</blockquote>
+    </p>
+    
+    <p align="center"><small><a href="#indice" ">(VOLTAR)</a></small></p>
+    <hr>
     <h2 id="servers">O que são <i>Servers</i>?</h2>
-    <small>  <a href="#indice">(VOLTAR)</a></small>
+    <p>
+       <p>
+         <h3>Definição:</h3> Lado em que se fornece serviços/conteúdo da internet ou em uma LAN(Local Area Network). Ao restringir acesso a rede externa a um servidor ele atua em uma <i>INTRANET</i>.
+       </p>
+       
+       <p>
+         Geralmente são máquinas mais robustas, o conjunto de servidores é denominado de Data Center.
+       </p>
+
+       <p>
+          Principais serviços oferecidos são:
+          <ol>
+            <li>Arquivos</li>
+            <li>Segurança (proxy/firewall)</li>
+            <li>Streaming</li>
+            <li>E-mail</li>
+            <li>Web</li>
+          </ol>
+
+          <h3>Proxy</h3>
+          <p>
+            <strong>Definição:</strong> serviço que fornece regras de acesso a internet. Função de restringir a navegação a determinados sites em uma rede local. Regras são estabelecidas pela empresa/organização que implementou.
+          </p>
+
+          <h3>Firewall</h3>
+          <p>
+            <strong>Definição:</strong> Servidor dedicado a segurança que faz o controle de acesso e informações recebidos externamente em uma rede local.
+          </p>
+
+          <h3>Servidor Web</h3>
+          <p>
+            <strong>Definição:</strong> Responsável por tratar requisições HTTP ( feitas pelo cliente ) e encaminhar respostas/arquivos correspondentes.
+          </p>
+       </p>
+    </p>
+    <p align="center"><small><a href="#indice" ">(VOLTAR)</a></small></p>
+    <hr>
+
+    <h2 id="Hosting">Hospedagem de sites</h2>
+    <p>
+      Ao se criar um site é necessário hospedá-lo em um local para que usuários possam acessar atráves da internet, ou seja precisamos de um <strong>Servidor Web</strong>. Para isso podemos contratar planos onde empresas oferecem esse serviço.
+    </p>
+    <p>
+      Para disponibilizar um site na grandiosa internet precisamos ter um domínio registrado, ou em termos mais simples, um nome para nosso site. Aqui no Brasil podemos fazer esse registro através do site <a href="https://registro.br/">Registro.br</a>.
+    </p>
+    <p>Uma vez que o domínio já está cadastrado podemos então assinar um plano de hospedagem. O próximo passo seria então incluir o servidor DNS, disponibilizado pela empresa contratada. Não se assuste com a sigla, esse tal DNS nada mais é que um <mark>tradutor de domínios</mark>( nome do site) em <u>IPs</u>(endereço lógico do site na internet).Geralmente empresas que oferecem hospedagem costumam disponibilizar também um servidor de e-mail para uso profissional</p>
+
+    <p>Por último e não menos importante, como podemos fazer para incluir os arquivos do nosso site nesse servidor web ? muito simples! Utilizando o protocolo <a href="https://www.hostinger.com.br/tutoriais/ftp-o-que-e-como-funciona">FTP</a>( isso mesmo, mais uma sigla).
+    Para fazermos esse envio a empresa nos fornece as credencias para usar esse serviço. Ai basta acessarmos o endereço fornecido e logar com o usuário e senha informados, feito isso já podemos enviarmos nossos arquivos HTML, CSS, JS que compõe nosso site.
+    </p>
+    <p align="center"><small><a href="#indice" ">(VOLTAR)</a></small></p>
+    <hr>
 
     <h2 id="HTML">Como é uma estrutura básica de um HTML?</h2>
-    <small>  <a href="#indice">(VOLTAR)</a></small>
+    <p>
+      <h3>Definição:</h3> HTML é uma linguagem de marcação utilizada para estruturar e organizar semanticamente elementos em um página web.
+    </p>
 
-    <h2 id="lists">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <small>  <a href="#indice">(VOLTAR)</a></small>
+    <p>
+      O principal elemento de marcação e a <em>Tag</em>, sendo sempre demilitado pelos simbolos < > para abertura e </ > para fechamento, sendo esse último opcionais em alguns elementos. 
+    </p>
+
+    <p>
+      Geralmente o arquivo HTML principal de um página é nomeado como <i>index.html</i>
+    </p>
+
+    <p>
+      <h3>Estrutura básica de um arquivo HTML</h3>
+      <ol>
+        <li>Tag <em>html</em>
+          <ul>
+            <li>Engloba todos os elementos</li>
+          </ul>
+        </li>
+
+        <li>Tag <em>head</em>
+          <ul>
+            <li>carregamento de metadados ( não visiveis ao usuário geralmente).<br><i>EX:</i>Titulo da pág.links de estilo e scripts, idioma.</li>
+          </ul>
+        </li>
+
+        <li>tag <em>body</em>
+          <ul>
+            <li>Elemento visiveis do site.<br><i>EX:</i>Texto, imagens, links</li>
+          </ul>
+        </li>
+
+      </ol>
+
+      <p>
+        <strong>OBS:</strong> Uma tag pode possuir atributos, podendo ser mais especificos ou mais genéricos.
+        <br>
+        <i>EX:</i> atributo <em>id</em> e atributo <em>type</em> da tag input.
+      </p>
+
+    </p>
+    <p align="center"><small><a href="#indice" ">(VOLTAR)</a></small></p>
+    <hr>
 
     <h2 id="links">Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://web.dio.me/track/formacao-html-web-developer" target="_blank">http://dio.me</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">http://w3c.org</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank">https://developer.mozilla</a></li>
     </ul>
-    <small>  <a href="#indice">(VOLTAR)</a></small>
+    <hr>
+    <p align="center"><small><a href="#indice" ">(INICIO)</a></small></p>
+    
 </body>
 </html>
