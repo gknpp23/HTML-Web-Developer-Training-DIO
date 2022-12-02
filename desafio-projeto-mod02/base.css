@@ -47,3 +47,41 @@ body {
     min-height: 85px;
     padding-top: 40px;
 }
+
+table {
+    margin: 15px auto 15px auto;
+}
+table th, td {
+    padding: 10px;
+}
+table tr:nth-child(even) td{
+    background-color: #bee9d7
+}
+table tbody tr:hover td{
+    background-color: #056c6c;
+}
+table thead, tfoot {
+    background-color: #ED8803;
+}
+
+fieldset {
+    padding: 45px;
+    height: 69%;
+}
+label {
+    display:block;
+    padding: 10px 10px 5px 0px;
+    text-align: left;
+}
+input {
+    display: inline-block;
+    padding-left: 10px;
+}
+button{
+    margin-top: 15px;
+}
+#contact {
+    display:flex;
+    justify-content: space-evenly;
+}
+
