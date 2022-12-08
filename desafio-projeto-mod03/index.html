@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>   
+        <figure class="logo">
+            <img src="assets/images/wikipedia.png" width="50"/>
+            <img src="assets/images/wikipedia-wordmark-fr.svg" width="150"/>
+        </figure>
+    </header>
+
+    <div class="bar"></div>
+
+    <main class="content">
+        <aside class="sidebar">
+            <h2>Protocolos</h2>
+            <ul>
+                <li><a href="#">DHCP</a></li>
+                <li><a href="#">DNS</a></li>
+                <li><a href="#">FTP</a></li>
+                <li><a href="#">HTTPS</a></li>
+                <li><a href="#">IMAP</a></li>
+            </ul>
+        </aside>
+
+        <section class="main">
+            <h1 id="definition">Hypertext Transfer Protocol</h1>
+            <p>O <strong>Hypertext Transfer Protocol</strong>, sigla <b>HTTP</b> (em português <b>Protocolo de Transferência de Hipertexto</b> ) é um protocolo de comunicação (na camada de aplicação segundo o Modelo OSI) utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a base para a comunicação de dados da World Wide Web.</p>
+            <p>Hipertexto é o texto estruturado que utiliza ligações lógicas (hiperlinks) entre nós contendo texto. O HTTP é o protocolo para a troca ou transferência de hipertexto. </p>
+            <p>Para acedermos a outro documento a partir de uma palavra presente no documento actual podemos utilizar hiperligações (ou âncoras). Estes documentos se encontram no sítio com um endereço de página da Internet – e para acessá-los deve-se digitar o respectivo endereço, denominado <i>URI</i> <u>(Universal Resource Identifier ou Identificador Universal de Recurso)</u>, que não deve ser confundido com <i>URL</i> <u>(Universal Resource Locator ou Localizador Universal de Recurso)</u>, um tipo de URI que pode ser directamente localizado.</p>
+
+            <h2 id="tec">Visão técnica geral</h2>
+            <p>O HTTP funciona como um protocolo de requisição-resposta no modelo computacional cliente-servidor. Um navegador web, por exemplo, pode ser o cliente e uma aplicação em um computador que hospeda um sítio da web pode ser o servidor. O cliente submete uma mensagem de requisição HTTP para o servidor. O servidor, que fornece os recursos, como arquivos HTML e outros conteúdos, ou realiza outras funções de interesse do cliente, retorna uma mensagem resposta para o cliente. A resposta contém informações de estado completas sobre a requisição e pode também conter o conteúdo solicitado no corpo de sua mensagem. </p>
+            <p>Um navegador web é um exemplo de agente de usuário (AU). Outros tipos de agentes de usuário incluem o software de indexação usado por provedores de consulta (web crawler), navegadores vocais, aplicações móveis e outros software que acessam, consomem ou exibem conteúdo web. </p>
+            <p>O HTTP é projetado para permitir intermediações de elementos de rede para melhorar ou habilitar comunicações entre clientes e servidores. Sites web de alto tráfego geralmente se beneficiam dos servidores de cache web que entregam conteúdo em nome de servidores de upstream para melhorar o tempo de resposta. Navegadores web armazenam os recursos web acessados anteriormente e reutilizam-nos quando possível para reduzir o tráfego de rede. Servidores proxy HTTP nas fronteiras de redes privadas podem facilitar a comunicação para o cliente sem um endereço globalmente roteável, transmitindo mensagens com servidores externos. </p>
+            <p>Basicamente, o HTTP define como clientes Web requisitam páginas Web aos servidores e como elas as transferem a clientes. Quando um usuário solicita uma página Web (acessa uma URL), o navegador envia ao servidor mensagens de requisição HTTP para os objetos da página. O servidor, por sua vez, recebe estas requisições e responde com mensagens de resposta HTTP que contém os objetos (...). O protocolo HTTP utiliza por padrão a porta 80 para comunicação</p>
+
+            <figure>
+                <img src="assets/images/HTTP_logo.svg.png" alt="" width="500">
+                <figcaption>Protocolo HTTP</figcaption>
+            </figure>
+        </section>
+
+        <nav class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#definition">Definição</a></li>
+                <li><a href="#tec">Visão técnica</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por Gabriel Knupp</p>
+    </footer>
+</body>
+</html>
