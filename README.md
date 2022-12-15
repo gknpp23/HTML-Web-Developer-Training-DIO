@@ -1,5 +1,5 @@
-<h1 align="center">HTML-Web-Developer-Training---DIO</h1> 
-
+<h1 align="center">| HTML-Web-Developer-Training  |</h1> 
+<p align="center"><img src="img/DIO.png"  width="150"></p>
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=HTML&message=language&color=orange&style=for-the-badge&logo=HTML5"/>
   <img src="https://img.shields.io/static/v1?label=CSS&message=style sheets&color=blue&style=for-the-badge&logo=CSS3"/>
@@ -8,7 +8,8 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 <br><br>
-<img src="img/HTML.webp" align="right" width="500">
+<hr>
+<img src="img/HTML.webp" align="right" width="400">
 
 ### Tópicos 
 
@@ -18,20 +19,18 @@
 
 :small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
-
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-
-... 
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
+<br><br>
 
 ## Descrição do projeto 
-
 <p align="justify">
   Descrição breve do projeto compondo um paragrafo ou dois. 
   Desafios propostos na trilha de aprendizado de HTML na plataforma DIO
 </p>
+
+<br><br>
+
+<hr>
 
 ## Funcionalidades
 
@@ -43,7 +42,9 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 :heavy_check_mark: Funcionalidade 4  
 
-## Layout ou Deploy da Aplicação :dash:
+<hr>
+
+## Deploy da Aplicação :dash:
 
 > Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
 
@@ -51,6 +52,7 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
+<hr>
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -64,8 +66,9 @@ git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
 
 Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
+<hr>
 
-# Resolvendo Problemas :exclamation:
+## Resolvendo Problemas :exclamation:
 
 Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
 
@@ -79,6 +82,7 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 
 :memo: Tarefa 3 
 
+<hr>
 
 ## Licença 
 
