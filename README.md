@@ -88,3 +88,7 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 The [MIT License]() (MIT)
 
 Copyright :copyright: Ano - Titulo do Projeto
+
+<hr>
+
+<h2 align="center"> Desenvolvido com :hearts: por Gabriel Knupp</h2>
