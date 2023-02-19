@@ -22,9 +22,9 @@
 <br><br>
 
 ## Descrição do projeto 
-<p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+<p align="justify"> 
   Desafios propostos na trilha de aprendizado de HTML na plataforma DIO
+  <br><br>
 </p>
 
 <br><br>
@@ -33,21 +33,11 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
-
-:heavy_check_mark: Funcionalidade 2  
-
-:heavy_check_mark: Funcionalidade 3  
-
-:heavy_check_mark: Funcionalidade 4  
+:heavy_check_mark: Guardar projetos desenvolvidos durante o curso.  
 
 <hr>
 
 ## Deploy da Aplicação :dash:
-
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
-
-... 
 
 Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
@@ -58,7 +48,7 @@ Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/gknpp23/HTML-Web-Developer-Training-DIO
 ```
 
 ... 
@@ -67,27 +57,11 @@ Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio 
 
 <hr>
 
-## Resolvendo Problemas :exclamation:
-
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
-
-## Tarefas em aberto
-
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
-
-:memo: Tarefa 1 
-
-:memo: Tarefa 2 
-
-:memo: Tarefa 3 
-
-<hr>
-
 ## Licença 
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - Titulo do Projeto
+Copyright :copyright: 2022 - Formação HTML DIO.
 
 <hr>
 
