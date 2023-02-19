@@ -50,8 +50,17 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/gknpp23/HTML-Web-Developer-Training-DIO
 ```
+Todos os projetos estão dentro das pastas com nome **desafio-projeto-mod01** a **desafio-projeto-mod03**.
+Após acessar as pastas basta abrir o arquivo index.html com um Browser.
 
-... 
+###   Projeto 01
+<img src="img/HTML.webp" align="right" width="400">
+
+###   Projeto 02
+<img src="img/HTML.webp" align="right" width="400">
+
+###   Projeto 03
+<img src="img/HTML.webp" align="right" width="400">
 
 Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
